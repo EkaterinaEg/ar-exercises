@@ -15,7 +15,7 @@ puts "----------"
 puts @store3.inspect
 # 2. Using Active Record's `destroy` method, delete the store from the database.
 
-@store3 .destroy
+@store3.destroy
 # 3. Verify that the store has been deleted by again outputting (`puts`ing) the `count` (as you did in Exercise 1.)
 
 puts Store.count
